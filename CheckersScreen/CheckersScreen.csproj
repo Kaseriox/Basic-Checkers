@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net7.0-windows</TargetFramework>
+        <Nullable>disable</Nullable>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Assets\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Assets\Board.png" />
+      <Resource Include="Assets\Board.png" />
+      <None Remove="Assets\CursorB.cur" />
+      <Resource Include="Assets\CursorB.cur" />
+      <None Remove="Assets\CursorW.cur" />
+      <Resource Include="Assets\CursorW.cur" />
+      <None Remove="Assets\KnightB.png" />
+      <None Remove="Assets\KnightW.png" />
+      <None Remove="Assets\PawnB.png" />
+      <Resource Include="Assets\PawnB.png" />
+      <None Remove="Assets\PawnW.png" />
+      <Resource Include="Assets\PawnW.png" />
+      <None Remove="Assets\KingB.png" />
+      <Resource Include="Assets\KingB.png" />
+      <None Remove="Assets\KingW.png" />
+      <Resource Include="Assets\KingW.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CheckerLogic\CheckerLogic.csproj" />
+      <ProjectReference Include="..\Helpers\Helpers.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Images.cs">
+        <DependentUpon>App.xaml</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Page Update="Menus\GameOverMenu.xaml">
+        <Generator>MSBuild:Compile</Generator>
+        <XamlRuntime>Wpf</XamlRuntime>
+        <SubType>Designer</SubType>
+      </Page>
+    </ItemGroup>
+
+</Project>

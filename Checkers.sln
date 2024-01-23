@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckerLogic", "CheckerLogic\CheckerLogic.csproj", "{EF25CC29-2895-4F71-B08D-0A7C645EB23E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckersScreen", "CheckersScreen\CheckersScreen.csproj", "{002A2E74-E1BC-44E9-9128-F85D924208C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{D09751DE-D2B9-4DC5-B045-248A5157BD7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpers", "Helpers\Helpers.csproj", "{B9618405-48E3-4B6C-A442-BFE019BAE656}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF25CC29-2895-4F71-B08D-0A7C645EB23E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF25CC29-2895-4F71-B08D-0A7C645EB23E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF25CC29-2895-4F71-B08D-0A7C645EB23E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF25CC29-2895-4F71-B08D-0A7C645EB23E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF25CC29-2895-4F71-B08D-0A7C645EB23E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{002A2E74-E1BC-44E9-9128-F85D924208C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{002A2E74-E1BC-44E9-9128-F85D924208C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{002A2E74-E1BC-44E9-9128-F85D924208C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{002A2E74-E1BC-44E9-9128-F85D924208C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{002A2E74-E1BC-44E9-9128-F85D924208C8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D09751DE-D2B9-4DC5-B045-248A5157BD7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D09751DE-D2B9-4DC5-B045-248A5157BD7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D09751DE-D2B9-4DC5-B045-248A5157BD7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D09751DE-D2B9-4DC5-B045-248A5157BD7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9618405-48E3-4B6C-A442-BFE019BAE656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9618405-48E3-4B6C-A442-BFE019BAE656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9618405-48E3-4B6C-A442-BFE019BAE656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9618405-48E3-4B6C-A442-BFE019BAE656}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
